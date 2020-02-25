@@ -48,6 +48,17 @@
 	</build>
 
 	<dependencies>
+	
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.jexcelapi</groupId>
+			<artifactId>jxl</artifactId>
+			<version>2.6.12</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
@@ -58,7 +69,6 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.0.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.aspose/aspose-cells -->
 		<dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-cells</artifactId>
