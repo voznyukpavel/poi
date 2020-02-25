@@ -77,7 +77,7 @@ public class XLSXReaderWriter {
                 Object[] objArr = newData.get(key);
                 int cellnum = 0;
                 for (Object obj : objArr) {
-                    Cell cell = row.createCell(cellnum++);
+                    Cell cell = row.createCell(cellnum++);//
                     if (obj instanceof String) {
                         cell.setCellValue((String) obj);
                     } else if (obj instanceof Boolean) {
